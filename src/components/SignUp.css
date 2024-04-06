@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px; /* Decreased margin-top */
+    background: #fff;
+    padding-bottom: 30px;
+    max-width: 500px; /* Added maximum width */
+    padding: 20px; /* Added padding */
+    border-radius: 10px; /* Added border-radius */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    margin-top: 20px; /* Decreased margin-top */
+}
+
+.text {
+    color: #3c009d;
+    font-size: 36px; /* Decreased font-size */
+    font-weight: 700;
+}
+
+.inputs {
+    margin-top: 30px; /* Decreased margin-top */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Decreased gap */
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Adjusted width */
+    background: #eaeaea;
+    border-radius: 6px;
+    padding: 0 15px; /* Added padding */
+}
+
+.input input {
+    flex: 1; /* Added flex: 1 */
+    height: 40px; /* Decreased height */
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 16px; /* Decreased font-size */
+}
+
+.submit-container {
+    display: flex;
+    gap: 20px; /* Decreased gap */
+    margin: 40px auto; /* Decreased margin */
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Adjusted width */
+    height: 50px; /* Decreased height */
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 8px; /* Added border-radius */
+    font-size: 16px; /* Decreased font-size */
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: #eaeaea;
+    color: #676767;
+}
